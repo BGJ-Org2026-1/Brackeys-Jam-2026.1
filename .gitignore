@@ -68,3 +68,9 @@ UserSettings/*
 Assets/Ignored
 
 .vscode/
+
+# --- Wwise Integration ---
+**/Wwise/.cache/
+*.akd
+**/Wwise/Originals/Backup/
+Wwise/GeneratedSoundBanks/Wwise_IDs.h

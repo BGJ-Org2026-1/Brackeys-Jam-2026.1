@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{592AAAB3-3F4F-4E95-B7B0-C803CF0CD1DE}",
+    "Language": "SFX",
+    "Hash": "{9D182939-5761-DA6B-6CE1-F723CF429980}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "983692288",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "arp01.wav",
+      "CachePath": "F5/{F5126CAC-6360-87F9-F7B8-753114A54282}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3199394876",
+      "Name": "Play_arp01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_arp01",
+      "GUID": "{674A59B1-2883-4162-B740-DCFD3F8C70ED}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.986984",
+      "DurationMax": "2.986984",
+      "MediaRefs": [
+       {
+        "Id": "983692288"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4D0C3BFD-150E-2B62-FAE6-6B56756678C9}"
+ }
+}
