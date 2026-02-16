@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-basis: 20%; justify-content: flex-end;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; justify-content: flex-start; flex-basis: 20%; align-items: auto; width: 125px; flex-direction: column; align-self: flex-end; background-color: rgba(215, 119, 236, 0.43); border-left-color: rgba(166, 7, 209, 0.71); border-right-color: rgba(166, 7, 209, 0.71); border-top-color: rgba(166, 7, 209, 0.71); border-bottom-color: rgba(166, 7, 209, 0.71); border-top-width: 7px; border-right-width: 7px; border-bottom-width: 7px; border-left-width: 7px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+            <ui:VisualElement name="InventorySlot" style="flex-grow: 1;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
