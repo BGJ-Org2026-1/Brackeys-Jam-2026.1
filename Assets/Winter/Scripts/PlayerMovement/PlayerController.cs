@@ -61,7 +61,13 @@ namespace Winter.Player
 
         void Awake()
         {
-            if (Instance == null) Instance = this;
+            if (Instance != null && Instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
+            Instance = this;
         }
 
 
