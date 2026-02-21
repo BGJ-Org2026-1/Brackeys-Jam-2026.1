@@ -25,8 +25,13 @@ namespace Winter.Input
 
         void Awake()
         {
-            if (Instance == null) Instance = this;
+            if (Instance != null && Instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
 
+            Instance = this;
             moveAction = inputAsset.FindActionMap("Player").FindAction("Move");
 
             moveAction.performed += (ctx) =>
