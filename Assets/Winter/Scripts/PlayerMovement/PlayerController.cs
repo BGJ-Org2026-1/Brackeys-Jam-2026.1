@@ -195,10 +195,10 @@ namespace Winter.Player
 
         private void PlayAudioClip(AudioClip clip)
         {
-            audioSource.Stop();
-            audioSource.clip = clip;
-            audioSource.time = 0;
-            audioSource.Play();
+            if (clip == null)
+                return;
+
+            audioSource.PlayOneShot(clip);
         }
 
 
